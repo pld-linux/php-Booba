@@ -5,12 +5,12 @@
 Summary:	Simple framework for developing web applications
 Summary(pl):	Zestaw klas u³atwiaj±cych tworzenie aplikacji internetowych w PHP
 Name:		php-Booba
-Version:	0.5.2
+Version:	0.6.0
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://osdn.dl.sourceforge.net/php-booba/%{_unix_name}-%{version}.tar.bz2
-# Source0-md5:	a0c54de5623429381d8cc3876e55cfba
+# Source0-md5:	bc10e28accb5dbeabd2d9b840c9d25f9
 URL:		http://sourceforge.net/projects/php-booba/
 BuildRequires:	docbook-utils
 BuildRequires:	rpm-php-pearprov >= 4.3
@@ -56,7 +56,10 @@ docbook2html main.docbook
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_phpsharedir}/%{_unix_name},%{_datadir}/%{_unix_name}}
 
-install include/* $RPM_BUILD_ROOT%{_phpsharedir}/%{_unix_name}
+install -d $RPM_BUILD_ROOT%{_phpsharedir}/%{_unix_name}/template_plugins
+install include/template_plugins/*.php $RPM_BUILD_ROOT%{_phpsharedir}/%{_unix_name}/template_plugins
+
+install include/*.php $RPM_BUILD_ROOT%{_phpsharedir}/%{_unix_name}
 install templates/simple/* $RPM_BUILD_ROOT%{_datadir}/%{_unix_name}
 
 find doc -name \*.docbook -exec rm {} \;
