@@ -6,7 +6,7 @@ Summary:	Simple framework for developing web applications
 Summary(pl):	Zestaw klas u³atwiaj±cych tworzenie aplikacji internetowych w PHP
 Name:		php-Booba
 Version:	0.3.1
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Development/Languages/PHP
 # dl.sf.net seems to be down...
@@ -36,9 +36,9 @@ oparty o mechanizm ticketów oraz bardzo szybki system szablonów.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT{%{php_pear_dir}/%{_unix_name},%{_datadir}/%{_unix_name}}
+install -d $RPM_BUILD_ROOT{%{_phpsharedir}/%{_unix_name},%{_datadir}/%{_unix_name}}
 
-install include/* $RPM_BUILD_ROOT%{php_pear_dir}/%{_unix_name}
+install include/* $RPM_BUILD_ROOT%{_phpsharedir}/%{_unix_name}
 install templates/simple/* $RPM_BUILD_ROOT%{_datadir}/%{_unix_name}
 
 %clean
@@ -47,5 +47,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog
-%{php_pear_dir}/%{_unix_name}
+%{_phpsharedir}/%{_unix_name}
 %{_datadir}/%{_unix_name}
