@@ -5,12 +5,12 @@
 Summary:	Simple framework for developing web applications
 Summary(pl):	Zestaw klas u³atwiaj±cych tworzenie aplikacji internetowych w PHP
 Name:		php-Booba
-Version:	0.5.1
+Version:	0.5.2
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
-Source0:	http://dl.sourceforge.net/php-booba/%{_unix_name}-%{version}.tar.bz2
-# Source0-md5:	553b106800598c6412623bcde8b58b22
+Source0:	http://osdn.dl.sourceforge.net/php-booba/%{_unix_name}-%{version}.tar.bz2
+# Source0-md5:	a0c54de5623429381d8cc3876e55cfba
 URL:		http://sourceforge.net/projects/php-booba/
 BuildRequires:	docbook-utils
 BuildRequires:	rpm-php-pearprov >= 4.3
