@@ -18,15 +18,15 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-php-Booba is a simple framework for developing Web applications. It contains
-classes for validating incoming data from forms, a powerful ticket-based
-request handling system, and a very fast template system.
+php-Booba is a simple framework for developing Web applications. It
+contains classes for validating incoming data from forms, a powerful
+ticket-based request handling system, and a very fast template system.
 
 %description -l pl
-php-Booba jest zestawem klas PHP u³atwiaj±cych tworzenie aplikacji internetowych.
-Zawiera miêdzy innymi klasy wpomagaj±ce weryfikacjê poprawno¶ci danych
-z wysy³anych formularzy, system obs³ugi ¿±dañ oparty o mechanizm ticketów oraz
-bardzo szybki system szablonów.
+php-Booba jest zestawem klas PHP u³atwiaj±cych tworzenie aplikacji
+internetowych. Zawiera miêdzy innymi klasy wpomagaj±ce weryfikacjê
+poprawno¶ci danych z wysy³anych formularzy, system obs³ugi ¿±dañ
+oparty o mechanizm ticketów oraz bardzo szybki system szablonów.
 
 %prep
 %setup -q -n %{_unix_name}-%{version}
