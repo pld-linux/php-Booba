@@ -5,12 +5,13 @@
 Summary:	Simple framework for developing web applications
 Summary(pl):	Zestaw klas u³atwiaj±cych tworzenie aplikacji internetowych w PHP
 Name:		php-Booba
-Version:	0.0.1
+Version:	0.1.0
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
-Source0:	http://dl.sourceforge.net/php-booba/%{_unix_name}-%{version}.tar.bz2
-# Source0-md5:	4145563a8132966e915d53f9d5c09415
+# dl.sf.net seems to be down...
+Source0:	http://osdn.dl.sourceforge.net/php-booba/%{_unix_name}-%{version}.tar.bz2
+# Source0-md5:	320df607f8160a0ab24ac96889152ad2
 URL:		http://sourceforge.net/projects/php-booba/
 BuildRequires:	rpm-php-pearprov >= 4.3
 Requires:	php
@@ -36,7 +37,6 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{php_pear_dir}/%{_unix_name},%{_datadir}/%{_unix_name}}
 
 install include/* $RPM_BUILD_ROOT%{php_pear_dir}/%{_unix_name}
-install conf/* $RPM_BUILD_ROOT%{php_pear_dir}/%{_unix_name}
 install templates/simple/* $RPM_BUILD_ROOT%{_datadir}/%{_unix_name}
 
 %clean
