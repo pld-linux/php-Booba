@@ -20,6 +20,8 @@ Requires:	php-pgsql
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+%define		_phpsharedir	%{_datadir}/php
+
 %description
 php-Booba is a simple framework for developing Web applications. It
 contains classes for validating incoming data from forms, a powerful
