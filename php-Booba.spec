@@ -9,7 +9,7 @@ Version:	0.7.2
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
-Source0:	http://osdn.dl.sourceforge.net/php-booba/%{_unix_name}-%{version}.tar.bz2
+Source0:	http://dl.sourceforge.net/php-booba/%{_unix_name}-%{version}.tar.bz2
 # Source0-md5:	67149d23606f475969e8e202917f281c
 URL:		http://sourceforge.net/projects/php-booba/
 BuildRequires:	docbook-utils
