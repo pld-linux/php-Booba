@@ -1,19 +1,19 @@
 
 %define		_unix_name	php-booba
 
-%include	/usr/lib/rpm/macros.php
+#%include	/usr/lib/rpm/macros.php
 Summary:	Simple framework for developing web applications
 Summary(pl):	Zestaw klas u³atwiaj±cych tworzenie aplikacji internetowych w PHP
 Name:		php-Booba
-Version:	0.6.0
+Version:	0.7.1
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://osdn.dl.sourceforge.net/php-booba/%{_unix_name}-%{version}.tar.bz2
-# Source0-md5:	bc10e28accb5dbeabd2d9b840c9d25f9
+# Source0-md5:	6afe54c2ed7003c1a6846fbb806541bd
 URL:		http://sourceforge.net/projects/php-booba/
 BuildRequires:	docbook-utils
-BuildRequires:	rpm-php-pearprov >= 4.3
+#BuildRequires:	rpm-php-pearprov >= 4.3
 Requires:	php
 Requires:	php-pcre
 Requires:	php-pgsql
