@@ -36,7 +36,7 @@ oparty o mechanizm ticketów oraz bardzo szybki system szablonów.
 %package doc
 Summary:	Documentation for php-Booba framework
 Summary(pl):	Dokumentacja do systemu php-Booba
-Group:		Libraries/Python
+Group:		Documentation
 Requires:	%{name} = %{version}-%{release}
 
 %description doc
