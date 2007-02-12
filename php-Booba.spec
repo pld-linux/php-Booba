@@ -3,7 +3,7 @@
 
 #%include	/usr/lib/rpm/macros.php
 Summary:	Simple framework for developing web applications
-Summary(pl):	Zestaw klas u³atwiaj±cych tworzenie aplikacji internetowych w PHP
+Summary(pl.UTF-8):   Zestaw klas uÅ‚atwiajÄ…cych tworzenie aplikacji internetowych w PHP
 Name:		php-Booba
 Version:	0.8.1
 Release:	2
@@ -27,23 +27,23 @@ php-Booba is a simple framework for developing Web applications. It
 contains classes for validating incoming data from forms, a powerful
 ticket-based request handling system, and a very fast template system.
 
-%description -l pl
-php-Booba jest zestawem klas PHP u³atwiaj±cych tworzenie aplikacji
-internetowych. Zawiera miêdzy innymi klasy wpomagaj±ce weryfikacjê
-poprawno¶ci danych z wysy³anych formularzy, system obs³ugi ¿±dañ
-oparty o mechanizm ticketów oraz bardzo szybki system szablonów.
+%description -l pl.UTF-8
+php-Booba jest zestawem klas PHP uÅ‚atwiajÄ…cych tworzenie aplikacji
+internetowych. Zawiera miÄ™dzy innymi klasy wpomagajÄ…ce weryfikacjÄ™
+poprawnoÅ›ci danych z wysyÅ‚anych formularzy, system obsÅ‚ugi Å¼Ä…daÅ„
+oparty o mechanizm ticketÃ³w oraz bardzo szybki system szablonÃ³w.
 
 %package doc
 Summary:	Documentation for php-Booba framework
-Summary(pl):	Dokumentacja do systemu php-Booba
+Summary(pl.UTF-8):   Dokumentacja do systemu php-Booba
 Group:		Documentation
 Requires:	%{name} = %{version}-%{release}
 
 %description doc
 This package contains documentation files for php-Booka framework.
 
-%description doc -l pl
-Pakiet zawieraj±cy dokumentacjê dla systemu php-Booba.
+%description doc -l pl.UTF-8
+Pakiet zawierajÄ…cy dokumentacjÄ™ dla systemu php-Booba.
 
 %prep
 %setup -q -n %{_unix_name}-%{version}
