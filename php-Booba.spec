@@ -3,7 +3,7 @@
 
 #%include	/usr/lib/rpm/macros.php
 Summary:	Simple framework for developing web applications
-Summary(pl.UTF-8):   Zestaw klas ułatwiających tworzenie aplikacji internetowych w PHP
+Summary(pl.UTF-8):	Zestaw klas ułatwiających tworzenie aplikacji internetowych w PHP
 Name:		php-Booba
 Version:	0.8.1
 Release:	2
@@ -35,7 +35,7 @@ oparty o mechanizm ticketów oraz bardzo szybki system szablonów.
 
 %package doc
 Summary:	Documentation for php-Booba framework
-Summary(pl.UTF-8):   Dokumentacja do systemu php-Booba
+Summary(pl.UTF-8):	Dokumentacja do systemu php-Booba
 Group:		Documentation
 Requires:	%{name} = %{version}-%{release}
 
