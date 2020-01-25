@@ -1,7 +1,6 @@
 
 %define		_unix_name	php-booba
 
-#%include	/usr/lib/rpm/macros.php
 Summary:	Simple framework for developing web applications
 Summary(pl.UTF-8):	Zestaw klas ułatwiających tworzenie aplikacji internetowych w PHP
 Name:		php-Booba
